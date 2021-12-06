@@ -7,7 +7,7 @@ typedef struct
 
 typedef struct
 {
-    const table_collection* tables;
+    table_collection* tables;
 } tree_sequence;
 
 void init_tree_sequence(table_collection* tables, tree_sequence* trees);
